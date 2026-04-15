@@ -34,3 +34,21 @@
     /* Animação pra seta girar */
     transition: transform .2s linear;
 }
+
+.carousel-item .active {
+    img {
+        height: 100px;
+        width: 100px;
+    }
+}
+
+.ultimaChamada {
+    .carrossel {
+        max-width: 30%;
+    }
+
+    img {
+        height: 300px;
+        width: 300px;
+    }
+}
