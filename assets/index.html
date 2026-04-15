@@ -1,65 +1,218 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- descrição do site -->
     <meta name="description" content="Estúdio de beleza especializado em cuidados pessoais e autoestima">
     <!-- meta de palavras chave -->
-    <meta name="keywords" content="beleza, estética, autoestima, cuidados pessoais, amor próprio, extensão de cílios, maquiagem, curso de automaquiagem,
+    <meta name="keywords"
+        content="beleza, estética, autoestima, cuidados pessoais, amor próprio, extensão de cílios, maquiagem, curso de automaquiagem,
     micropgmentação labial, micropgmentação, sobrancelha, sobrancelha com henna, design de sobrancelha, brown lamination, estúdio, estúdio maquiagem, salão, cilios, sobrancelha">
     <!-- meta de autor do site -->
     <meta name="author" content="Nicole Azevedo">
-    
+
     <!-- open graph -->
-     <meta property="og:title" content="Estúdio de Beleza Débora Azevedo">
-     <meta property="og:description" content="Realce sua beleza com uma profissional especializada">
-     <meta property="og:image" content="https://github.com/NickAzv16/teste-frontend-developer/assets/img/logotipo-cf.jpg">
-     <meta property="og:type" content="website">
-     <meta name="theme-color" content="#ff82c0">
+    <meta property="og:title" content="Estúdio de Beleza Débora Azevedo">
+    <meta property="og:description" content="Realce sua beleza com uma profissional especializada">
+    <meta property="og:image"
+        content="https://github.com/NickAzv16/teste-frontend-developer/assets/img/logotipo-cf.jpg">
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#ff82c0">
 
     <!-- link para css -->
     <link rel="stylesheet" href="css/style.css">
     <title>Estúdio Débora Azevedo</title>
 </head>
+
 <body>
-    <!-- inicio navbar -->
-     <nav>
-        <section>
+    <!-- INÍCIO HEADER -->
+    <header>
+        <section class="alinhamento">
             <div class="elementos-nav">
                 <img src="img/logotipo-estudio-sf.png" alt="Logotipo estúdio Débora Azevedo">
                 <a href="#" class="telefone">(48) 90909-0909</a>
             </div>
         </section>
-     </nav>
-    <!-- fim navbar -->
+    </header>
+    <!-- FIM HEADER -->
 
-    <!-- início main -->
-     <main>
-        <section>
+    <!-- INÍCIO MAIN -->
+    <main>
+        <section class="alinhamento">
+            <!-- div que armazena textos do main -->
             <div class="caixa-texto">
-                <h1>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab quaerat assumenda voluptas excepturi corporis voluptatibus, reprehenderit .</h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni neque nulla vitae, mollitia, odio molestias accusantium nisi, voluptatem nam quam aliquam esse minima assumenda voluptates laudantium reiciendis officiis eveniet asperiores.</p>
+                <h1>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab quaerat assumenda voluptas excepturi
+                    corporis voluptatibus, reprehenderit .</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni neque nulla vitae, mollitia, odio
+                    molestias accusantium nisi, voluptatem nam quam aliquam esse minima assumenda voluptates laudantium
+                    reiciendis officiis eveniet asperiores.</p>
+                <a href="#"><button class="mainBtn">Saiba Mais</button></a>
             </div>
+            <!-- formulário main -->
             <form action="" id="formulario">
                 <h3>Chamada para ação</h3>
+                <!-- inputs -->
                 <input type="text" id="nome" placeholder="Nome:">
                 <input type="email" id="email" placeholder="E-mail:">
                 <input type="email" id="telefone" placeholder="Celular:">
-                <select name="selecionaProcedimento" id="procedimentos">
-                    <option value="sobrancelha">Design de Sobrancelha convencional</option>
-                    <option value="sobrancelhaHenna">Design de Sobrancelha com Henna</option>
-                    <option value="maquiagemSocial">Maquiagem Social</option>
-                    <option value="maquiagemNoiva">Maquiagem De Noiva</option>
-                    <option value="extensaoCilios">Extensão de cílios</option>
-                </select>
-                <textarea name="campoMensagem" id="mensagem" placeholder="Digite aqui alguma dúvida ou mensagem"></textarea>
-                <input type="date" name="dataAgendamento" id="dataAgendamento" placeholder="Data preferida:">
+                <!-- seletor de procedimentos -->
+                <div class="divComInput">
+                    <h4>Selecione o Procedimento</h4>
+                    <select name="selecionaProcedimento" id="procedimentos">
+                        <option value="sobrancelha">Design de Sobrancelha convencional</option>
+                        <option value="sobrancelhaHenna">Design de Sobrancelha com Henna</option>
+                        <option value="maquiagemSocial">Maquiagem Social</option>
+                        <option value="maquiagemNoiva">Maquiagem De Noiva</option>
+                        <option value="extensaoCilios">Extensão de cílios</option>
+                        <option value="BrowLaminationConv">Brow Lamination convencional</option>
+                        <option value="BrowLaminationHenna">Brow Lamination com Henna</option>
+                    </select>
+                </div>
+                <textarea name="campoMensagem" id="mensagem"
+                    placeholder="Digite aqui alguma dúvida ou mensagem"></textarea>
+                <!-- div com input e titulo para escolha de data -->
+                <div class="divComInput">
+                    <h4>Data Preferida:</h4><input type="date" name="dataAgendamento" id="dataAgendamento">
+                </div>
             </form>
         </section>
-     </main>
-    <!-- fim main -->
+    </main>
+    <!-- FIM MAIN -->
 
+    <!-- INÍCIO SEÇÃO QUEM É...-->
+    <section id="secao-quem">
+        <section class="alinhamento">
+            <div class="caixa-texto">
+                <h2>Quem é Débora Azevedo</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate minima, quasi odit accusamus
+                    eveniet tenetur, atque, temporibus exercitationem quam architecto cumque aperiam quas nesciunt!
+                    Totam adipisci necessitatibus exercitationem? Nulla, magnam.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque quae error cupiditate sapiente rem a
+                    aliquam expedita ratione quaerat ipsa voluptatem aliquid impedit, repellat vitae neque perspiciatis
+                    sit quis quisquam?</p>
+                <a href="#"><button class="mainBtn">Saiba Mais</button></a>
+            </div>
+            <img src="img/provisoria.png" alt="Imagem da profissional Débora Azevedo">
+        </section>
+    </section>
+    <!-- FIM SEÇÃO QUEM É...-->
+
+    <!-- INÍCIO SEÇÃO TRANSFORMAÇÃO -->
+    <section class="transformacao">
+        <section class="alinhamento">
+            <h2>Como Transformamos você:</h2>
+            <!-- div com cards -->
+            <div class="cards">
+                <!-- card 1 -->
+                <div class="card">
+                    <!-- !AQUI UMA IMAGEM OU UM ÍCONE -->
+                    <h3>Atendimento Personalizado</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis sit.</p>
+                </div>
+                <!-- card 2 -->
+                <div class="card">
+                    <!-- !AQUI UMA IMAGEM OU UM ÍCONE -->
+                    <h3>Produtos de Alta qualidade</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis sit.</p>
+                </div>
+                <!-- card 3 -->
+                <div class="card">
+                    <!-- !AQUI UMA IMAGEM OU UM ÍCONE -->
+                    <h3>Procedimentos otmizados</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis sit.</p>
+                </div>
+                <!-- card 4 -->
+                <div class="card">
+                    <!-- !AQUI UMA IMAGEM OU UM ÍCONE -->
+                    <h3>Ambiente confortável</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis sit.</p>
+                </div>
+            </div>
+            <a href="#"><button class="mainBtn">Eu também quero 😍</button></a>
+        </section>
+    </section>
+
+    <!-- FIM SEÇÃO TRANSFORMAÇÃO -->
+
+    <!-- INÍCIO SEÇÃO FAQ -->
+    <section class="secao-faq">
+        <section class="alinhamento">
+            <h2>Perguntas Frequentes</h2>
+            <div class="faq">
+
+                <!-- caixa pergunta 1 -->
+                <div class="caixaPergunta">
+                    <div class="pergunta" onclick="clicarPergunta(this)">
+                        <h3>Aqui é uma pergunta sim?</h3>
+                        <span class="setaPergunta seta">👇</span>
+                        <!-- TODO: MUDA ESSA SETA AÍ PFV -->
+                    </div>
+                    <div class="resposta">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque mollitia, laudantium eos
+                            fugiat officia rerum quis ducimus dolores in cupiditate!</p>
+                    </div>
+                </div>
+
+                <!-- caixa pergunta 2 -->
+                <div class="caixaPergunta">
+                    <div class="pergunta" onclick="clicarPergunta(this)">
+                        <h3>Aqui é uma pergunta sim?</h3>
+                        <span class="setaPergunta seta">👇</span>
+                        <!-- TODO: MUDA ESSA SETA AÍ PFV -->
+                    </div>
+                    <div class="resposta">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque mollitia, laudantium eos
+                            fugiat officia rerum quis ducimus dolores in cupiditate!</p>
+                    </div>
+                </div>
+
+                <!-- caixa pergunta 3 -->
+                <div class="caixaPergunta">
+                    <div class="pergunta" onclick="clicarPergunta(this)">
+                        <h3>Aqui é uma pergunta sim?</h3>
+                        <span class="setaPergunta seta">👇</span>
+                        <!-- TODO: MUDA ESSA SETA AÍ PFV -->
+                    </div>
+                    <div class="resposta">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque mollitia, laudantium eos
+                            fugiat officia rerum quis ducimus dolores in cupiditate!</p>
+                    </div>
+                </div>
+
+                <!-- caixa pergunta 4 -->
+                <div class="caixaPergunta">
+                    <div class="pergunta" onclick="clicarPergunta(this)">
+                        <h3>Aqui é uma pergunta sim?</h3>
+                        <span class="setaPergunta seta">👇</span>
+                        <!-- TODO: MUDA ESSA SETA AÍ PFV -->
+                    </div>
+                    <div class="resposta">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque mollitia, laudantium eos
+                            fugiat officia rerum quis ducimus dolores in cupiditate!</p>
+                    </div>
+                </div>
+
+                <!-- caixa pergunta 5 -->
+                <div class="caixaPergunta">
+                    <div class="pergunta" onclick="clicarPergunta(this)">
+                        <h3>Aqui é uma pergunta sim?</h3>
+                        <span class="setaPergunta seta">👇</span>
+                        <!-- TODO: MUDA ESSA SETA AÍ PFV -->
+                    </div>
+                    <div class="resposta">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque mollitia, laudantium eos
+                            fugiat officia rerum quis ducimus dolores in cupiditate!</p>
+                    </div>
+                </div>
+
+                <!-- TODO: ALTERAR O CONTEÚDO DAS CAIXINHAS. -->
+
+            </div>
+        </section>
+    </section>
+    <!-- FIM SEÇÃO FAQ -->
 
 
 
@@ -67,4 +220,5 @@
 
     <script src="js/script.js"></script>
 </body>
+
 </html>
