@@ -1,3 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+/* root de cor */
+:root {
+    --rosaClaro: #fff8f9;
+    --rosaMedio: #b06678;
+    --rosaEscuro: #8d3d51;
+    --rosaBtn: #DF94A3;
+    --cinza: #423e3e;
+}
+
+/* root de fonte family */
+:root {
+    --cursiva: "Dancing Script", cursive;
+    --titulo: "Playfair Display", serif;
+    --texto: "Poppins", sans-serif;
+}
+
+body {
+    p {
+        font-family: var(--texto);
+        color: var(--cinza);
+    }
+
+    h1,
+    h2 {
+        font-family: var(--titulo);
+    }
+}
+
+/* configurando seção de alinhamento */
+.alinhamento {
+    width: 100%;
+    max-width: 1200px;
+    padding: 3rem 2rem;
+    margin: 0 auto;
+}
+
+/* INÍCIO HEADER */
+header {
+    background-color: var(--rosaClaro);
+
+    .alinhamento {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+
+        .logotipo {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            color: var(--rosaEscuro);
+            font-family: var(--cursiva);
+            font-size: 13px;
+
+            img {
+                height: 85px;
+            }
+        }
+
+        .telefone {
+            text-decoration: none;
+            font-family: var(--cursiva);
+            font-weight: 400;
+            background: white;
+            padding: 10px 15px;
+            border-radius: 10px;
+            color: var(--rosaEscuro);
+            transition: transform 0.4s ease;
+
+            &:hover {
+                transform: translateY(-5px);
+            }
+        }
+
+
+    }
+}
+
+/* FIM HEADER */
+
+/* INÍCIO MAIN */
+main {
+    background-image: url(../img/5.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+    .alinhamento {
+        display: flex;
+        justify-content: space-between;
+
+        .caixa-texto {
+            max-width: 50%;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            align-items: start;
+
+            h2 {
+                font-size: 47px;
+                color: var(--rosaEscuro);
+            }
+
+            p {
+                line-height: 2rem;
+                font-size: 15px;
+            }
+
+            .cor-diferente {
+                font-size: 47px;
+                color: var(--rosaMedio);
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+.mainBtn {
+    border: none;
+    font-size: 17px;
+    background: var(--rosaBtn);
+    color: white;
+    font-family: var(--texto);
+    font-weight: 400;
+    padding: 8px 30px;
+    border-radius: 0 10px 0 10px;
+}
+
+
+/* FIM MAIN */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* INÍCIO FAQ */
 .caixaPergunta {
     background: white;
 }
@@ -35,13 +193,10 @@
     transition: transform .2s linear;
 }
 
-.carousel-item .active {
-    img {
-        height: 100px;
-        width: 100px;
-    }
-}
+/* FIM FAQ */
 
+
+/* INÍCIO SEÇÃO ÚLTIMA CHAMADA */
 .ultimaChamada {
     .carrossel {
         max-width: 30%;
@@ -52,3 +207,12 @@
         width: 300px;
     }
 }
+
+.carousel-item .active {
+    img {
+        height: 100px;
+        width: 100px;
+    }
+}
+
+/* FIM SEÇÃO ÚLTIMA CHAMADA */

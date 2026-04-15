@@ -25,9 +25,11 @@
     <link rel="stylesheet" href="css/style.css">
 
     <!-- link bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" -->
+    <!-- crossorigin="anonymous" -->
 
     <title>Estúdio Débora Azevedo</title>
 </head>
@@ -36,10 +38,11 @@
     <!-- INÍCIO HEADER -->
     <header>
         <section class="alinhamento">
-            <div class="elementos-nav">
+            <div class="logotipo">
                 <img src="img/logotipo-estudio-sf.png" alt="Logotipo estúdio Débora Azevedo">
-                <a href="#" class="telefone">(48) 90909-0909</a>
+                <h2>Embelezamento do Olhar</h2>
             </div>
+            <a href="#" class="telefone">(48) 90909-0909</a>
         </section>
     </header>
     <!-- FIM HEADER -->
@@ -49,10 +52,10 @@
         <section class="alinhamento">
             <!-- div que armazena textos do main -->
             <div class="caixa-texto">
-                <h1>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab quaerat assumenda voluptas excepturi
-                    corporis voluptatibus, reprehenderit .</h1>
+                <h2>Realce sua beleza com <span class="cor-diferente">uma profissional </span>especializada.</h2>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni neque nulla vitae, mollitia, odio
-                    molestias accusantium nisi, voluptatem nam quam aliquam esse minima assumenda voluptates laudantium
+                    molestias accusantium nisi, voluptatem nam quam aliquam esse minima assumenda voluptates
+                    laudantium
                     reiciendis officiis eveniet asperiores.</p>
                 <a href="#"><button class="mainBtn">Saiba Mais</button></a>
             </div>
@@ -153,7 +156,7 @@
                 <div class="caixaPergunta">
                     <div class="pergunta" onclick="clicarPergunta(this)">
                         <h3>Aqui é uma pergunta sim?</h3>
-                        <span class="setaPergunta seta">👇</span>
+                        <p class="setaPergunta seta">👇</p>
                         <!-- TODO: MUDA ESSA SETA AÍ PFV -->
                     </div>
                     <div class="resposta">
@@ -166,7 +169,7 @@
                 <div class="caixaPergunta">
                     <div class="pergunta" onclick="clicarPergunta(this)">
                         <h3>Aqui é uma pergunta sim?</h3>
-                        <span class="setaPergunta seta">👇</span>
+                        <p class="setaPergunta seta">👇</p>
                         <!-- TODO: MUDA ESSA SETA AÍ PFV -->
                     </div>
                     <div class="resposta">
@@ -179,7 +182,7 @@
                 <div class="caixaPergunta">
                     <div class="pergunta" onclick="clicarPergunta(this)">
                         <h3>Aqui é uma pergunta sim?</h3>
-                        <span class="setaPergunta seta">👇</span>
+                        <p class="setaPergunta seta">👇</p>
                         <!-- TODO: MUDA ESSA SETA AÍ PFV -->
                     </div>
                     <div class="resposta">
@@ -192,7 +195,7 @@
                 <div class="caixaPergunta">
                     <div class="pergunta" onclick="clicarPergunta(this)">
                         <h3>Aqui é uma pergunta sim?</h3>
-                        <span class="setaPergunta seta">👇</span>
+                        <p class="setaPergunta seta">👇</p>
                         <!-- TODO: MUDA ESSA SETA AÍ PFV -->
                     </div>
                     <div class="resposta">
@@ -205,7 +208,7 @@
                 <div class="caixaPergunta">
                     <div class="pergunta" onclick="clicarPergunta(this)">
                         <h3>Aqui é uma pergunta sim?</h3>
-                        <span class="setaPergunta seta">👇</span>
+                        <p class="setaPergunta seta">👇</p>
                         <!-- TODO: MUDA ESSA SETA AÍ PFV -->
                     </div>
                     <div class="resposta">
@@ -256,17 +259,18 @@
                                 <h5>Third slide label</h5>
                                 <p>Some representative placeholder content for the third slide.</p>
                             </div>
+
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
                         data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
+                        <p class="carousel-control-prev-icon" aria-hidden="true"></p>
+                        <p class="visually-hidden">Previous</p>
                     </button>
                     <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
                         data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
+                        <p class="carousel-control-next-icon" aria-hidden="true"></p>
+                        <p class="visually-hidden">Next</p>
                     </button>
                 </div>
             </div>
@@ -299,6 +303,8 @@
     <!-- FIM RODAPÉ -->
 
     <script src="js/script.js"></script>
+
+    <!-- Script do bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
