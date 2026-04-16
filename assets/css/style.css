@@ -207,6 +207,59 @@ main {
 
 /* FIM MAIN */
 
+/* INÍCIO SEÇÃO QUEM SOMOS */
+#secao-quem {
+    background-color: var(--rosaClaro);
+
+    .alinhamento {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 80px;
+
+        .caixa-texto {
+            display: flex;
+            flex-direction: column;
+
+            h2 {
+                font-size: 35px;
+            }
+
+            h3 {
+                font-size: 25px;
+                color: var(--rosaMedio);
+            }
+
+            p {
+                font-family: var(--texto);
+                font-size: 17px;
+                color: var(--cinza);
+            }
+
+            button {
+                margin-top: 15px;
+            }
+
+        }
+
+        img {
+            height: 400px;
+        }
+    }
+
+}
+
+.title {
+    font-size: 30px;
+    font-family: var(--titulo);
+    color: var(--rosaEscuro);
+
+}
+
+
+
+/* FIM SEÇÃO QUEM SOMOS */
+
 
 
 
