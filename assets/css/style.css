@@ -256,9 +256,80 @@ main {
 
 }
 
-
-
 /* FIM SEÇÃO QUEM SOMOS */
+
+/* INÍCIO SEÇÃO TRANSFORMAÇÃO */
+#transformacao {
+    background-color: var(--rosaForm);
+
+    .alinhamento {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        text-align: center;
+
+        h2 {
+            font-size: 35px;
+        }
+
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5%;
+            justify-content: center;
+            padding: 10px 0;
+
+            .card {
+                width: 20%;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                justify-content: center;
+                align-items: center;
+                background: transparent;
+                padding: 20px;
+                transition: transform ease 0.5s;
+
+                &:hover {
+                    cursor: pointer;
+                    transform: translateY(-10px);
+                    box-shadow: -2px -2px 52px -8px rgba(252, 252, 252, 0.75);
+                    -webkit-box-shadow: -2px -2px 52px -8px rgba(252, 252, 252, 0.75);
+                    -moz-box-shadow: -2px -2px 52px -8px rgba(252, 252, 252, 0.75);
+                }
+
+                h3 {
+                    color: var(--rosaEscuro);
+                    font-family: var(--titulo);
+                }
+
+                p {
+                    font-family: var(--texto);
+                    color: var(--cinza);
+                }
+
+                img {
+                    width: 50px;
+                }
+            }
+
+        }
+
+        .mainBtn {
+            margin-top: 30px;
+            transition: 0.3s ease;
+
+            &:hover {
+                transform: scale(1.05);
+            }
+        }
+    }
+}
+
+
+
+
+/* FIM SEÇÃO TRANSFORMAÇÃO */
 
 
 
