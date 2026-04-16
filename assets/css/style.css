@@ -331,18 +331,62 @@ main {
 
 /* FIM SEÇÃO TRANSFORMAÇÃO */
 
+/* INÍCIO SEÇÃO FAQ */
+#secao-faq {
+    background-color: var(--rosaClaro);
+
+    .alinhamento {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+
+        h2 {
+            font-size: 35px;
+        }
+
+        .faq {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+
+            .caixaPergunta {
+
+                padding: 20px;
+                border-radius: 15px;
+                box-shadow: -4px 4px 16px 2px rgba(109, 109, 109, 0.57);
+                -webkit-box-shadow: -4px 4px 16px 2px rgba(109, 109, 109, 0.57);
+                -moz-box-shadow: -4px 4px 16px 2px rgba(109, 109, 109, 0.57);
+
+                .pergunta {
+                    display: flex;
+                    justify-content: space-between;
+                }
+
+                h3 {
+                    font-size: 20px;
+                    color: var(--cinza);
+                }
+            }
+
+            .resposta {
+                p {
+                    color: var(--cinza);
+                    font-size: 16px;
+                }
+            }
+        }
+
+    }
+}
 
 
 
-
-
-
-
-
-
-
-
-
+/* FIM SEÇÃO FAQ */
 
 /* INÍCIO FAQ */
 .caixaPergunta {
