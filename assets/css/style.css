@@ -490,7 +490,24 @@ main {
 /* FIM SEÇÃO ÚLTIMA CHAMADA */
 
 /* INÍCIO RODAPÉ */
+footer {
+    background-color: #FFF8F9;
 
+    .alinhamento {
+        text-align: center;
+        padding: 1.5rem 0;
+
+        p {
+            color: var(--rosaEscuro);
+            font-size: 12px;
+        }
+
+        a {
+            color: var(--rosaEscuro);
+            font-size: 12px;
+        }
+    }
+}
 
 
 
