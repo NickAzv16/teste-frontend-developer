@@ -61,30 +61,34 @@
             </div>
             <!-- formulário main -->
             <form action="" id="formulario">
-                <h3>Chamada para ação</h3>
+                <h3>Agende seu horário</h3>
                 <!-- inputs -->
-                <input type="text" id="nome" placeholder="Nome:">
-                <input type="email" id="email" placeholder="E-mail:">
-                <input type="email" id="telefone" placeholder="Celular:">
-                <!-- seletor de procedimentos -->
-                <div class="divComInput">
-                    <h4>Selecione o Procedimento</h4>
-                    <select name="selecionaProcedimento" id="procedimentos">
-                        <option value="sobrancelha">Design de Sobrancelha convencional</option>
-                        <option value="sobrancelhaHenna">Design de Sobrancelha com Henna</option>
-                        <option value="maquiagemSocial">Maquiagem Social</option>
-                        <option value="maquiagemNoiva">Maquiagem De Noiva</option>
-                        <option value="extensaoCilios">Extensão de cílios</option>
-                        <option value="BrowLaminationConv">Brow Lamination convencional</option>
-                        <option value="BrowLaminationHenna">Brow Lamination com Henna</option>
-                    </select>
+                <div class="inputs">
+                    <input required type="text" id="nome" placeholder="Nome:">
+                    <input required type="email" id="email" placeholder="E-mail:">
+                    <input required type="text" id="telefone" placeholder="Celular:">
+                    <!-- seletor de procedimentos -->
+                    <div class="divComInput">
+                        <!-- <h4>Selecione o Procedimento:</h4> -->
+                        <select required name="selecionaProcedimento" id="procedimentos">
+                            <option value="">Selecionar um procedimento</option>
+                            <option value="sobrancelha">Design de Sobrancelha convencional</option>
+                            <option value="sobrancelhaHenna">Design de Sobrancelha com Henna</option>
+                            <option value="maquiagemSocial">Maquiagem Social</option>
+                            <option value="maquiagemNoiva">Maquiagem De Noiva</option>
+                            <option value="extensaoCilios">Extensão de cílios</option>
+                            <option value="BrowLaminationConv">Brow Lamination convencional</option>
+                            <option value="BrowLaminationHenna">Brow Lamination com Henna</option>
+                        </select>
+                    </div>
+                    <textarea name="campoMensagem" id="mensagem"
+                        placeholder="Digite aqui alguma dúvida ou mensagem"></textarea>
+                    <!-- div com input e titulo para escolha de data -->
+                    <div class="divComInput">
+                        <h4>Data Preferida:</h4><input type="date" name="dataAgendamento" id="dataAgendamento">
+                    </div>
                 </div>
-                <textarea name="campoMensagem" id="mensagem"
-                    placeholder="Digite aqui alguma dúvida ou mensagem"></textarea>
-                <!-- div com input e titulo para escolha de data -->
-                <div class="divComInput">
-                    <h4>Data Preferida:</h4><input type="date" name="dataAgendamento" id="dataAgendamento">
-                </div>
+                <a href="#"><button class="mainBtn">Agendar agora</button></a>
             </form>
         </section>
     </main>

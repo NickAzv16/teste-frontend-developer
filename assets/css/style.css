@@ -13,6 +13,7 @@
     --rosaClaro: #fff8f9;
     --rosaMedio: #b06678;
     --rosaEscuro: #8d3d51;
+    --rosaForm: #ffe1e6;
     --rosaBtn: #DF94A3;
     --cinza: #423e3e;
 }
@@ -101,6 +102,7 @@ main {
     .alinhamento {
         display: flex;
         justify-content: space-between;
+        align-items: center;
 
         .caixa-texto {
             max-width: 50%;
@@ -124,6 +126,69 @@ main {
                 color: var(--rosaMedio);
                 font-weight: 600;
             }
+        }
+
+        #formulario {
+            display: flex;
+            flex-direction: column;
+            background-color: var(--rosaForm);
+            text-align: center;
+            padding: 30px;
+            border-radius: 20px;
+            gap: 25px;
+            box-shadow: 3px -1px 56px -10px rgba(169, 169, 169, 0.75);
+            -webkit-box-shadow: 3px -1px 56px -10px rgba(169, 169, 169, 0.75);
+            -moz-box-shadow: 3px -1px 56px -10px rgba(169, 169, 169, 0.75);
+
+            h3 {
+                font-family: var(--titulo);
+                font-size: 30px;
+                color: var(--rosaEscuro);
+            }
+
+            .inputs {
+
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                /* align-items: center; */
+
+                h4 {
+                    font-family: var(--titulo);
+                    font-size: 17px;
+                    color: var(--rosaEscuro);
+                }
+
+                input,
+                textarea,
+                select,
+                option {
+                    background-color: var(--rosaClaro);
+                    font-family: var(--texto);
+                    color: var(--cinza);
+                    font-size: 16px;
+                    border: 1px solid var(--rosaEscuro);
+                    padding: 5px 10px;
+                    border-radius: 7px;
+                    cursor: pointer;
+                }
+
+                .divComInput {
+                    display: flex;
+                    /* flex-direction: column;  */
+                    align-items: center;
+                    justify-content: center;
+                    gap: 10px;
+                }
+            }
+
+            .mainBtn {
+                border-radius: 10px;
+                padding: 4px 10px;
+                font-size: 17px;
+            }
+
+
         }
     }
 }
