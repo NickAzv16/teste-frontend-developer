@@ -1,0 +1,64 @@
+/* Responsividade para um celular grande*/
+@media (max-width:480px) {
+
+    /* header */
+    header {
+        .alinhamento {
+            .logotipo {
+                h2 {
+
+                    font-size: 15px;
+                }
+
+                img {
+                    height: 70px;
+                }
+
+            }
+
+            .telefone {
+                font-size: 13px;
+            }
+        }
+    }
+
+    /* main */
+    main {
+        .alinhamento {
+            flex-direction: column;
+            gap: 3.5rem;
+
+            .caixa-texto {
+                max-width: 100%;
+                justify-content: center;
+                text-align: center;
+                align-items: center;
+            }
+        }
+    }
+
+    /* seção quem */
+    #secao-quem {
+        .alinhamento {
+            flex-direction: column;
+            text-align: center;
+
+            img {
+                height: 300px;
+            }
+        }
+    }
+
+    /* seção ultima chamada */
+    .ultimaChamada {
+        .alinhamento {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .carrossel {
+                max-width: 100%;
+            }
+        }
+    }
+}
