@@ -330,8 +330,6 @@ main {
 }
 
 
-
-
 /* FIM SEÇÃO TRANSFORMAÇÃO */
 
 /* INÍCIO SEÇÃO FAQ */
@@ -488,6 +486,10 @@ main {
         height: 100px;
         width: 100px;
     }
+}
+
+.p-carrossel {
+    color: var(--rosaEscuro);
 }
 
 /* FIM SEÇÃO ÚLTIMA CHAMADA */
