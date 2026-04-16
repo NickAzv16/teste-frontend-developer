@@ -8,6 +8,11 @@ function clicarPergunta(botao) {
     resposta.classList.toggle('girar');
 }
 
+// função para enviar formulário e aparecer mensagem.
 function enviaForm() {
-    alert("Formulário enviado com sucesso!");
+    const nome = document.getElementById('nome').value;
+    const email = document.getElementById('email').value;
+    const celular = document.getElementById('celular').value;
+
+    nome == "" || email == "" || celular == "" ? alert('Preencha todos os campos do formulário!') : alert("Formulário enviado com sucesso!");
 }

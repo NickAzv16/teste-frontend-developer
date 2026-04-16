@@ -67,11 +67,11 @@
                 <div class="inputs">
                     <input required type="text" id="nome" placeholder="Nome:">
                     <input required type="email" id="email" placeholder="E-mail:">
-                    <input required type="text" id="telefone" placeholder="Celular:">
+                    <input required type="text" id="celular" placeholder="Celular:">
                     <!-- seletor de procedimentos -->
                     <div class="divComInput">
                         <!-- <h4>Selecione o Procedimento:</h4> -->
-                        <select required name="selecionaProcedimento" id="procedimentos">
+                        <select name="selecionaProcedimento" id="procedimentos">
                             <option value="">Selecionar um procedimento</option>
                             <option value="sobrancelha">Design de Sobrancelha convencional</option>
                             <option value="sobrancelhaHenna">Design de Sobrancelha com Henna</option>
@@ -89,7 +89,7 @@
                         <h4>Data Preferida:</h4><input type="date" name="dataAgendamento" id="dataAgendamento">
                     </div>
                 </div>
-                <a href="#"><button class="mainBtn">Agendar agora</button></a>
+                <a href="#" onclick="enviaForm()"><button class="mainBtn">Agendar agora</button></a>
             </form>
         </section>
     </main>
