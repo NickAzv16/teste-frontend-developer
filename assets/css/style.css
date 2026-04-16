@@ -355,7 +355,7 @@ main {
             gap: 20px;
 
             .caixaPergunta {
-
+                background: white;
                 padding: 20px;
                 border-radius: 15px;
                 box-shadow: -4px 4px 16px 2px rgba(109, 109, 109, 0.57);
@@ -371,28 +371,21 @@ main {
                     font-size: 20px;
                     color: var(--cinza);
                 }
-            }
 
-            .resposta {
-                p {
-                    color: var(--cinza);
-                    font-size: 16px;
+                .resposta {
+                    p {
+                        color: var(--cinza);
+                        font-size: 16px;
+                    }
                 }
             }
         }
-
     }
 }
 
-
-
 /* FIM SEÇÃO FAQ */
 
-/* INÍCIO FAQ */
-.caixaPergunta {
-    background: white;
-}
-
+/* INÍCIO ANIMAÇÃO FAQ */
 .pergunta {
     display: flex;
     align-items: center;
@@ -426,18 +419,64 @@ main {
     transition: transform .2s linear;
 }
 
-/* FIM FAQ */
+/* FIM ANIMAÇÃO FAQ */
+
 
 
 /* INÍCIO SEÇÃO ÚLTIMA CHAMADA */
 .ultimaChamada {
-    .carrossel {
-        max-width: 30%;
-    }
+    background-color: var(--rosaForm);
 
-    img {
-        height: 300px;
-        width: 300px;
+    .alinhamento {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 60px;
+
+
+
+        .carrossel {
+            max-width: 30%;
+        }
+
+        img {
+            height: 300px;
+            width: 300px;
+        }
+
+        .caixaTexto {
+            background-color: var(--rosaClaro);
+            padding: 40px;
+            border-radius: 20px 0 20px 0;
+            border: 1px dotted var(--rosaEscuro);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            flex-wrap: wrap;
+
+            h3 {
+                font-family: var(--texto);
+                color: var(--rosaEscuro);
+                font-weight: bold;
+
+            }
+
+            p {
+                font-family: var(--texto);
+                color: var(--cinza);
+                font-size: 15px;
+            }
+
+            .mainBtn {
+                transition: 0.3s ease;
+
+                &:hover {
+                    transform: scale(1.05);
+                }
+            }
+        }
     }
 }
 
@@ -449,3 +488,10 @@ main {
 }
 
 /* FIM SEÇÃO ÚLTIMA CHAMADA */
+
+/* INÍCIO RODAPÉ */
+
+
+
+
+/* FIM RODAPÉ */
