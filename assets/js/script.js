@@ -7,3 +7,7 @@ function clicarPergunta(botao) {
     resposta.classList.toggle('aberto');
     resposta.classList.toggle('girar');
 }
+
+function enviaForm() {
+    alert("Formulário enviado com sucesso!");
+}
