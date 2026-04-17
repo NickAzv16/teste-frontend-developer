@@ -1,58 +1,38 @@
-# Teste para estágio Frontend e Full-Stack
+# Projeto - Desafio teste para estágio frontend - Ellos Design
+## Desenvolvido por: Nicole Azevedo.
 
-## Sobre a Ellos Design
+## Landing Page - Estúdio de Beleza Débora Azevedo.
+Este projeto é uma landing page que foi desenvolvida para fazer parte de um processo seletivo para estágio em Front-End na Ellos Design.
+O objetivo foi criar uma interface delicada e responsiva, focando na experiência do usuário, para apresentar o estúdio de beleza Débora Azevedo.
 
-A **Ellos Design** é uma agência de marketing e criação de sites localizada em Guarulhos / SP. Somos uma empresa em constante evolução e sempre estamos abertos para pessoas que gostem de tecnologia e queiram trabalhar na área, mas que principalmente queiram aprender e crescer com a nossa empresa.
+## 🚀 Tecnologias Usadas no projeto:
+- HTML5 - (para estrutura da página)
+- CSS3 - (para a estilização e responsividade)
+- JavaScript - (para a interação com o usuário e validação de formulário)
+- Git e Github - (para registrar alterações e andamento do projeto)
+- Bootstrap - (para um carrosel de imagens)
 
-## Sobre o teste
+## 🎯 Objetivo
+O objetivo foi criar uma página responsiva, para apresentar os serviços prestados por esse estúdio, apresentação da profissional e do portifólio, e para facilitar o contato, a comunicação, e a confiança com clientes.
 
-Este é um teste prático que desenvolvemos para a avaliação dos candidatos participantes de nosso processo seletivo para vagas de Frontend ou Full-Stack.
+## 💡 Funcionalidades
+- Formulário de agendamento.
+- FAQ interativo.
+- Botão de contato via Whatsapp.
+- Botão de redes sociais.
 
-## Tecnologias para o desafio
+## 🧠 Decisões técnicas
+- Uso de HTML semântico (header, main, footer...) para melhorar a acessibilidade, e para facilitar os mecanismos de busca.
+- Layout organizado em seções para melhor navegação.
+- Paleta de cores suaves para transmitir elegância, conforto e delicadeza.
+- Adicionei comentários estratégicos durante o código para facilitar a leitura do código, destacar trechos importantes e facilitar a manutenção e compreensão para outros desenvolvedores.
 
-Você deve utilizar as seguintes tecnologias para o desenvolvimento do teste:
+## 📱 Responsividade
+O projeto foi desenvolvido para funcionar bem em diferentes tamanhos de tela (desktop, mobile, tablets...)
 
-- HTML5
-- CSS
-- JavaScript ou jQuery
-- PHP (Para Full-Stack)
-- MySQL (Para Full-Stack)
+## ⚙️ Como rodar
+Clone o repositório e abra o arquivo index.html no navegador. 
+Ou
+Acesse o link em que o site está disponível (no deploy)
 
-## O que nos impressionaria no teste
-
-- Utilização de um pré-processador para o CSS (De preferência o Sass)
-- Aplicação de animações em CSS (Ex: Animações ao realizar scroll)
-- Ver o teste rodando em live (Bucket estático S3, Heroku, Firebase Hosting, etc)
-- Documentação do projeto (Com instruções para executar)
-
-## O que avaliaremos no seu teste
-
-- Criatividade
-- Organização do código
-- Performance do código
-- Boas práticas de desenvolvimento
-- Documentação do código
-- Adaptação mobile (layout responsivo)
-- Documentação do projeto (Com instruções para executar)
-
-## Etapas para realização do teste
-
-- Faça um [fork](https://github.com/Ellos-Design/teste-frontend-developer/fork) desse projeto em sua conta do GitHub
-- Realize o desafio proposto
-- Faça um push para seu repositório com o desafio implementado
-- Envie um email para (vagas@ellosdesign.com.br) com a URL do seu projeto avisando que você concluiu o teste
-
-## O desafio
-
-Você deverá desenvolver uma landing page seguindo a estrutura exibida na imagem abaixo. Você pode utilizar os textos e imagens de sua preferência para a criação da página.
-
-#### Full-Stack
-
-Deixar o formulário da landing page funcional, onde ao preencher as informações e clicar para enviar, o formulário será submetido e os dados deverão ser gravados em um banco de dados (Neste caso será necessário nos enviar o arquivo SQL para podermos implementar o banco para avaliação do teste).
-
-> [!IMPORTANT]
-> Atenção: O mockup abaixo é apenas um esqueleto estrutural. Não queremos que você replique o design cinza e estático do modelo. Use sua criatividade para definir uma marca fictícia (ou real), escolher uma paleta de cores, tipografia e imagens que deem vida ao projeto. Sinta-se livre para adaptar o layout, desde que mantenha os elementos essenciais.
-
-![Template da página a ser desenvolvida](https://github.com/Ellos-Design/teste-frontend-developer/blob/master/wireframe.png?raw=true)
-
-**Boa sorte! Use sua criatividade e mostre do que você é capaz.**
+## 🌐 Deploy
